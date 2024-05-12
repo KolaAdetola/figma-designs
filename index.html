@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Figma designs</title>
-    <link href="stylesheet.css">
+    <title>Title</title>
+    <link rel="stylesheet" href="stylesheet.css">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-<body class="bg-gray-200">
-
+<body>
     <header class="bg-white text-black py-4 gap-[346px]">
         <div class="container mx-auto flex justify-between items-center">
             <h1 class="font-semibold text-4xl">WAZOBIA</h1>
@@ -18,56 +20,131 @@
                     <li><a href="#" class="text-xl">About Us</a></li>
                     <li><a href="#" class="text-xl">FAQs</a></li>
                     <li><a href="#" class="text-xl">Blog</a></li>
-                   <button class="bg-gray-500 text-white py-1 px-3 rounded-md"><li><a href="#" class="align-text-bottom">Contact us</a></li></button>
+                    <button class="bg-gray-500 text-white py-1 px-3 rounded-md">
+                        <li><a href="#" class="align-text-bottom">Contact us</a></li>
+                    </button>
                 </ul>
             </nav>
         </div>
     </header>
-
     <main>
-        <section class="relative">
-            <img src="res/9ad8bd43a491a7c0294fc6247773b375.jpeg" class="w-full h-full object-cover" alt="Background Image" width="720px" height="372.5px">
-            <div class="absolute top-0 left-30.5 w-full h-full flex items-center justify-center">
-                <div class="text-black text-center px-9 py-8">
-                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-                        We deliver custom software</br>
-                        development tailored to meet</br>
-                        your business needs
-                    </h1>
-                    <p>Wazobia Technologies is a professional software development agency dedicated to </br>
-                        producing high quality products. We transform your ideas into great products through </br>
-                        design and technology</p>
-                    </div>
-                </div>
-
-
-                        
-                        
-                
-                <div class="px-6 py-9 top-30 left-60 w-full h-full flex items-center justify-center">
-                    <button type="submit" class="bg-black text-white py-3 px-6 rounded-xl hover:bg-blue-500 text-black">Let's Talk </button>
-                </div>
-
-                    
+        <section class="hero">
+            <img src="res/9ad8bd43a491a7c0294fc6247773b375.jpeg" alt="Hero Image" class="hero-image">
+            <div class="hero-text">
+                <h1 class="kola">We deliver custom software development tailored to meet</br> your business needs</h1>
+                <p>Wazobia Technologies is a professional software development agency dedicated to</br> producing high quality products. We transform your ideas into great products through</br> design and technology</p>
+                <a href="#" class="cta-button flex justify-center items-center mx-auto">Let's talk</a>
+            </div>
         </section>
-        <!-- <section>
-            <img src="res/9ad8bd43a491a7c0294fc6247773b375.jpeg" class="w-full h-full object-cover">
-            <div class="image-text">
-                We deliver custom software</br>
-                development tailored to meet</br>
-                your business needs
+        <section class="flex-container">
+        <div class="tola">
+            <div class="content">
+                <img src="res/be7825011453ab5342a2a4436db2e482.png">
+                <p>Team Extension</p>
+            </div>
+        </div>
+        <div class="tola">
+            <div class="content">
+                <img src="res/a9cd3d5974992aa553e59973577e7cd8.png">
+                <p>Bespoke Software <br>Development</p>
+            </div>
+        </div>
+        <div class="tola">
+            <div class="content">
+                <img src="res/407a44792bff5ee93cc5fd4541feb346.png">
+                <p>DevOps</p>
+            </div>
+        </div>
+    </section>
+    
+    
+      <section id="focus" class="projects py-16 bg-gray-100">
+        <div class="container mx-auto">
+          <h2  id="gojo" class="text-2xl font-semibold text-center mb-8">Our Focus</h2>
+          <div class="grid grid-cols-3 gap-8">
+
+
+         <div class="card">
+        <img src="res/kol.jpeg" alt="Project 2" class="mb-4 rounded" width="358px" height="325px">
+        <div><h3 class="text-lg font-semibold mb-2">Team Extension</h3></div>
+        
+        <p class="text-black-600">Hire our developers as your development team or instantly scale your team and operations with us. We will effectively carry out all tasks relating to your software development projects and create quality, cutting edge solutions together. Hiring our developers allows you to leverage software development best practices, without having to hire and train new talent.</p>
+        
+        <span>Our Focus</span>
+            <ul>
+            <li>DevOps Outsourcing</li>
+            <li>In-house team augmentation</li>
+            <li>Dedicated software development team.</li>
+            </ul>
+            <article class="text-white">kola</article>
+            <div>
+                
+                <a href="#" class="learn">Learn More ></a>
+
 
             </div>
+        </div>
+
+
+            <div class="card">
+        <img src="res/boom.jpeg" alt="Project 2" class="mb-4 rounded" width="358px" height="325px">
+        <h3 class="text-lg font-semibold mb-2">Bespoke Software Document</h3>
+        <p id="card" class="text-black-600">Our agile experts create the ideal web applications and mobile software solutions that boost the performance of your business, ease business processes and provide quality to your users.</p>
+        <span>Our Focus:</span>
+        <ul>
+        <li>MVP</li>
+        <li> SAAS</li>
+        <li>Cloud-based apps</li>
+        <li>Enterprise applications</li>
+        <li>Single-page apps</li>
+        <li>Progressive web apps: Multiplatform app development</li>
+        <li>Custom CRM System </li>
+        </ul>
+        <article class="text-white">kola</article>
+        <div>
             
+            <a href="#" class="learn">Learn More ></a>
 
 
-
-        </section> -->
+        </div>
+            </div>
+            <div class="card">
+        <img src="res/tan.jpeg" alt="Project 2" class="mb-4 rounded" width="358px" height="325px">
+        <h3 class="text-lg font-semibold mb-2">DevOps</h3>
+        <p class="text-black-600">Our comprehensive approach to DevOps offers a range of exceptional, well-tested software solutions/infrastructure that meet your unique requirements. As a result, we deliver reliable, top- performing software solutions while keeping your costs as low as possible. We focus on public clouds, on premise infrastructure and other service providers.</p>
+        <span>Our Focus:</span>
+        <ul>
+        <li>Custom design and development architecture</li>
+        <li>System Migrations</li>
+        <li>Cost Optimization</li>
+        <li>Deployment automation</li>
         
+        </ul>
+        <article class="text-white">kola</article>
+        <div>
+            
+            <a href="#" class="learn">Learn More ></a>
+
+
+        </div>
+            </div>
+
+            
+            <!-- 
+
+            Our Focus:
+            
+            
+            
+            -->
+            
+           
+            
+            
+            
+            
+            
+    
     </main>
-
-    <footer>
-        
-    </footer>
 </body>
 </html>
