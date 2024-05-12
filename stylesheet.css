@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
@@ -44,6 +46,8 @@
 }
 
 .hero-text p {
+    
+    
     font-size: 24px; /* Adjust paragraph font size */
     margin-bottom: 30px; /* Add spacing below paragraph */
     font-weight: 500;
@@ -122,6 +126,7 @@ text-align: center; /* Center-align text */
 }
 
 .card h3 {
+   
     font-size: 24px;
     font-weight: 500;
     line-height: 31.82px;
@@ -129,6 +134,12 @@ text-align: center; /* Center-align text */
 }
 
 .card p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
     width: 358px;
     height: 300px;
     font-size: 20px;
@@ -179,4 +190,13 @@ text-align: center; /* Center-align text */
 
 
 
+}
+#gojo{
+    font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Use a value from 200 to 800 */
+  font-style: normal;
+  font-size: 64px;
+  line-height: 82.82px;
+  color: #FFFFFF;
 }
