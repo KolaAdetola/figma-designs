@@ -416,7 +416,7 @@
   }
  
   .numbers{ 
-    width: 17px;
+    width: 24px;
     height: 52px;
     font-weight: 500;
     font-size: 40px;
@@ -435,7 +435,8 @@
     font-size: 40px;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-optical-sizing: auto;
-    padding-right: 393px
+    padding-right: 393px;
+    text-align:start;
 
 
 
