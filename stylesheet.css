@@ -416,13 +416,48 @@
   }
  
   .numbers{ 
-    width: 50px;
+    width: 17px;
+    height: 52px;
     font-weight: 500;
     font-size: 40px;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-optical-sizing: auto;
+    color: #FE5821;
     
 
 
+  }
+  #yanz{
+    height: 15px;
+  }
+  .headings{
+    font-weight: 500;
+    font-size: 40px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    padding-right: 393px
+
+
+
+  }
+  .text-p{
+    color: #14141A;
+    text-align: start;
+    width: 585px;
+    height: 232px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height:29.05px;
+    
+  }
+  .bobo{
+
+    /* padding: 10px; */
+    margin-top: 60px;
+   background-color:#FE7446;
+    border:1px;
+    width: 585px;;
+    height:1px;
+    /* margin: 3px; */
   }
   
