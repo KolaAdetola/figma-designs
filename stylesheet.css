@@ -710,8 +710,6 @@ flex-grow: 0;
 
 }
 .viral section h3{
-  /* Entrepreneur */
-
 width: 92px;
 height: 20px;
 font-family: 'Biotif';
@@ -721,11 +719,7 @@ font-size: 15px;
 line-height: 20px;
 text-align: center;
 margin-left: 25px;
-
 color: #94959A;
-
-
-/* Inside auto layout */
 flex: none;
 order: 1;
 flex-grow: 0;
